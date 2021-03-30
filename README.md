@@ -1,18 +1,10 @@
 # Plants vs Zombies
 
-Демо: [https://plants-vs-zombies-rsclone.netlify.app/](https://plants-vs-zombies-rsclone.netlify.app/)
+Демо: 
 
-Документация движка: https://github.com/ellankz/rsclone/blob/develop/src/engine/docs.md
+Документация движка: 
 
 Для запуска игры:
-
-` $ git clone https://github.com/ellankz/rsclone `
-
-` $ cd rsclone `
-
-` $ git fetch `
-
-` $ git checkout develop `
 
 ` $ npm install `
 
@@ -20,7 +12,6 @@
 
 Игра запустится локально, но за данными пользователей будет обращаться на удаленный сервер.
 
-Репозиторий серверной части кода находится [здесь](https://github.com/ellankz/rsclone-be).
 
 ## Стек технологий
 
@@ -36,6 +27,6 @@
 
 Для отрисовки всех элементов игры задействован HTML5 элемент canvas. Он позволяет содавать анимации при помощи покадровой отрисовки на canvas-элементе.
 
-В данной игре используется кастомный движок на основе canvas. Документация к движку с примерами находится [здесь](https://github.com/ellankz/rsclone/blob/develop/src/engine/docs.md)
+В данной игре используется кастомный движок на основе canvas.
 
 Для добавления полей ввода на canvas использован [canvasinput](https://www.npmjs.com/package/canvasinput)
