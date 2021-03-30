@@ -202,39 +202,13 @@ export class StartScreen extends ScreenCreator {
       dh: 60,
     });
 
-    const githubLena = this.engine.createNode({
+    const githubS1ga = this.engine.createNode({
       type: 'TextNode',
       position: this.engine.vector(
         this.engine.size.x - 48,
         zombieLogo.position.y,
       ),
-      text: 'ellankz',
-      layer: START_SCREEN_LAYERS[1],
-      fontSize: FOOTER_FONT_SIZE,
-      font: TEXT_BUTTONS_FONT,
-      color: '#fff',
-    });
-
-    const githubLiza = this.engine.createNode({
-      type: 'TextNode',
-      position: this.engine.vector(
-        this.engine.size.x - 55,
-        githubLena.position.y + 15,
-      ),
-      text: 'Liza-Veis',
-      layer: START_SCREEN_LAYERS[1],
-      fontSize: FOOTER_FONT_SIZE,
-      font: TEXT_BUTTONS_FONT,
-      color: '#fff',
-    });
-
-    const githubUlyana = this.engine.createNode({
-      type: 'TextNode',
-      position: this.engine.vector(
-        this.engine.size.x - 60,
-        githubLiza.position.y + 15,
-      ),
-      text: 'ulyana-zh',
+      text: 'S1ga',
       layer: START_SCREEN_LAYERS[1],
       fontSize: FOOTER_FONT_SIZE,
       font: TEXT_BUTTONS_FONT,
@@ -245,7 +219,7 @@ export class StartScreen extends ScreenCreator {
       type: 'TextNode',
       position: this.engine.vector(
         this.engine.size.x - 70,
-        githubUlyana.position.y + 15,
+        githubS1ga.position.y + 15,
       ),
       text: 'VVladislaVLL',
       layer: START_SCREEN_LAYERS[1],
@@ -267,9 +241,7 @@ export class StartScreen extends ScreenCreator {
     });
 
     this.setLink(rssLogo, 'https://rs.school/js/');
-    this.setLink(githubLena, 'https://github.com/ellankz');
-    this.setLink(githubLiza, 'https://github.com/Liza-Veis');
-    this.setLink(githubUlyana, 'https://github.com/ulyana-zh');
+    this.setLink(githubS1ga, 'https://github.com/s1ga');
     this.setLink(githubVlad, 'https://github.com/VVladislaVLL');
   }
 }
