@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ellankz/rsclone.git"
+    "url": "git+https://github.com/vvladislavll/course_work_final.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ellankz/rsclone/issues"
+    "url": "https://github.com/vvladislavll/course_work_final/issues"
   },
   "homepage": "https://github.com/ellankz/rsclone#readme",
   "devDependencies": {
